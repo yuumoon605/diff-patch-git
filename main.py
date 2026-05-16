@@ -2,8 +2,8 @@
 
 # today's new version
 def calculate_weights(x, y):
-    z = 2 * x - y * 1.5
-    return z
+    z = 2 * x - y * 1.0
+    return z / 2.0
 
 def apply_to_adjacent_pairs(a):
     for i in range(len(a) - 1):
